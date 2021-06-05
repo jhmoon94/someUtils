@@ -1,15 +1,19 @@
-let devide = function (a, b) {
+const product = function (a, b) {
+    return a * b
+}
+
+const devide = function (a, b) {
     return a / b;
 }
 
-let power = function (a, b) {
+const power = function (a, b) {
     return a ** b;
 }
 
-let subtract = function (a, b) {
+const subtract = function (a, b) {
     return a - b
 }
 
-let add = function (a, b) {
+const add = function (a, b) {
     return a + b
 }
